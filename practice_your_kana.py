@@ -59,5 +59,5 @@ while True:
     elif command == "ausgabe":
         printall()
     else:
-        print( "keine bekannte Aushabe. Tippe eingabe, test, ausgabe oder beenden)"
+        print( "keine bekannte Aushabe. Tippe eingabe, test, ausgabe oder beenden")
 
