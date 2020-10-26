@@ -29,7 +29,7 @@ def eingabe():
         hiragana = input("Type the Hiragana: ")
         if hiragana == "#fertig":
             return
-        kana.append(Entry(sounds, hiraganas))
+        kana.append(Entry(sound, hiragana))
 
 def test():
     while True:
@@ -37,7 +37,7 @@ def test():
         hiragana = input("Sound Übersetzung von " + kana[i].sound + ":  ")
         if hiragana == "#fertig":
             return
-        if kana[i].hiragana == hiragana_input:
+        if kana[i].hiragana == hiragana:
             print ("korrekt")
         else:
             print ("Leider falsch. Richtige Antwort: " + kana[i].hiragana)
